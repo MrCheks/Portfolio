@@ -1,0 +1,96 @@
+<!-- 
+The projects section should contain at least one element with a class of project-tile to hold a project
+The projects section should contain at least one link to a project
+Your portfolio should have a navbar with an id of navbar
+The navbar should contain at least one link that you can click on to navigate to different sections of the page
+Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+Your portfolio should have at least one media query
+The height of the welcome section should be equal to the height of the viewport
+The navbar should always be at the top of the viewport-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+        <title>Portfolio Webpage</title>
+    </head>
+    <body>
+
+        <!-- Nav Bar Section-->
+        <div class="top">
+            <nav id="nav-bar">
+                <ul id="nav-list">
+                    <li clas="nl">
+                        <a class="nav-link" href="#welcome-section">About</a>
+                    </li>
+                    <li clas="nl">
+                        <a class="nav-link" href="#projects">Work</a>
+                    </li>
+                    <li clas="nl">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Welcoming Section-->
+        <section id="welcome-section">
+                <h1>
+                    Hey, I'm Francisco Diaz
+                </h1>
+                <p>
+                    a web developer
+                </p>
+        </section>
+
+        <!-- Projects Section-->
+        <section id="projects">
+                <h2>
+                    These are some of my projects
+                </h2>
+                <div class="projects-grid">
+                    <a href="71SrufC4y1L._AC_SL1500_.jpg">
+                    <img class="project-img" alt="tribute-page" src="porfolio_project1.png">
+                    <p class="project-title">
+                        fCC Tribute
+                    </p>
+                    </a>
+                </div>
+        </section>
+
+        <!--Contact Info-->
+        <section id="contact">
+            <div>
+            <h3 class="contact-invite">
+                Let's make somthing work
+            </h3>
+            <p class="coffee">Feel free to contact me</p>
+            </div>
+        <div>
+            <div class="social-icons">
+                <a href="">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a target="_blank" href="https://github.com/MrCheks">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/francisco-diaz-b72532222//">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+        </div>
+        </section>
+    </body>
+</html>
